@@ -11,9 +11,5 @@ window.addEventListener('DOMContentLoaded', () => {
         //shadow: true
     });
 
-    TitleBar.updateItemBGColor(new Color(new RGBA(0, 0, 0, .2)));
-    TitleBar.updateTitle('PROJECTO');
-
-    const menu = new Menu();
-    TitleBar.updateMenu(menu);
+    TitleBar.updateTitle(' ');
 });

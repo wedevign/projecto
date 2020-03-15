@@ -10,6 +10,8 @@ function createWindow () {
     win = new BrowserWindow({
         width: 1920, // TODO: Dit passen we aan naar 1280x720 als we het responsive hebben gemaakt.
         height: 1080,
+        minWidth: 1280,
+        minHeight: 720,
         frame: false,
         show: true,
         center: true,

@@ -1,0 +1,32 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+  
+.titlebar, .titlebar > * {
+    background-color: #7D83FF !important;
+}
+
+#login {
+    margin: 0px;
+    padding: 0px;
+    background-color: #7D83FF;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    bottom: 0;  
+    
+    h1 {
+      font-family: 'Quicksand', sans-serif;
+      font-weight: bold;
+      color: #FFF;
+    }
+}
+
+.main-outercontainer {
+    height: 100%;
+    width: 100vw;
+    overflow: hidden;
+}
