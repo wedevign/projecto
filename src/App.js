@@ -23,15 +23,13 @@ function App() {
     //   <Route path="/" exact component={Login} />
     // </Router>
     <Router>
-      <Switch>
-          <Route path="/" >
-            <Home />
-          </Route>
-          <Route path="/login">
-            <Login />
-          </Route>
-        </Switch>
-      </Router>
+      <Route path="/" >
+        <Home />
+      </Route>
+      <Route path="/login">
+        <Login />
+      </Route>
+    </Router>
     
   );
 }
