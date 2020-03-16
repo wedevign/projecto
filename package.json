@@ -13,6 +13,7 @@
     "cross-env": "^7.0.2",
     "custom-electron-titlebar": "^3.2.2-hotfix62",
     "electron-is-dev": "^1.1.0",
+    "formik": "^2.1.4",
     "node-sass": "^4.13.1",
     "react": "^16.13.0",
     "react-custom-electron-titlebar": "^3.1.0",
@@ -20,7 +21,8 @@
     "react-helmet": "^5.2.1",
     "react-router-dom": "^5.1.2",
     "react-scripts": "3.4.0",
-    "sass": "^1.26.3"
+    "sass": "^1.26.3",
+    "yup": "^0.28.3"
   },
   "scripts": {
     "react-start": "react-scripts start",

@@ -1,7 +1,6 @@
-import React from 'react';
+import React, {Component} from 'react';
 import {
   BrowserRouter as Router,
-  Switch,
   Route,
   Link
 } from "react-router-dom";
@@ -16,22 +15,26 @@ import { createBrowserHistory as createHistory } from "history";
 
 const history = createHistory();
 
-function App() {
-  return (
-    // <Router history={history}>
-    //   <Route path="/login" exact component={Home} />
-    //   <Route path="/" exact component={Login} />
-    // </Router>
-    <Router>
-      <Route path="/" >
-        <Home />
-      </Route>
-      <Route path="/login">
-        <Login />
-      </Route>
-    </Router>
-    
-  );
+
+
+class App extends Component {
+
+  render() {
+    return(
+      <Router>
+        <Route path="/login" component={Home} />
+        <Route path="/" component={Login} />
+      </Router>
+      // <Router>
+      //   <Route path="/login" >
+      //     <Home />
+      //   </Route>
+      //   <Route path="/">
+      //     <Login />
+      //   </Route>
+      // </Router>
+    );
+  }
 }
 
 export default App;

@@ -1,13 +1,15 @@
+// $background: #7D83FF;
+// :root {
+//     --background: #7D83FF;
+// }
+
 * {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
     overflow: hidden;
 }
-  
-.titlebar, .titlebar > * {
-    background-color: #7D83FF !important;
-}
+
 
 #login {
     margin: 0px;
@@ -29,4 +31,17 @@
     height: 100%;
     width: 100vw;
     overflow: hidden;
+}
+
+.main-innercontainer {
+    position: absolute;
+    margin: 0 auto;
+    top: 7.5%;
+    left: 30%;
+    right: 30%;
+    bottom: 5%;
+    content: "";
+    border-radius: 25px;
+    background-color: #2A2D34;
+    box-shadow: 0 10px 0px rgba($color: #000000, $alpha: .25);
 }
