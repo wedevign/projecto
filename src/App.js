@@ -19,11 +19,15 @@ const history = createHistory();
 
 class App extends Component {
 
+ 
+
   render() {
+    
+
     return(
       <Router>
-        <Route path="/login" component={Home} />
-        <Route path="/" component={Login} />
+        <Route path="/" component={Home} />
+        <Route path="/login" component={Login} />
       </Router>
       // <Router>
       //   <Route path="/login" >

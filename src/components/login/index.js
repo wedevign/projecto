@@ -3,6 +3,8 @@ import { Redirect } from "react-router";
 import { Formik } from "formik";
 import * as yup from "yup";
 import './style.scss';
+import GoogleIcon from '../assets/icons/google.svg';
+import GithubIcon from '../assets/icons/github.svg';
 
 const schema = yup.object({
     username: yup.string().required("Username is required"),
@@ -25,7 +27,7 @@ function Login() {
         return(
             <div id="login">
                 <div className="main-outercontainer">
-                    <div className="main-innercontainer">
+                    <div className="main-innercontainer login">
                         <h1 className="header-text">PROJECTO</h1>
                         
                         <Formik 
@@ -50,6 +52,7 @@ function Login() {
                                                 type = "text"
                                                 name = "username"
                                                 placeholder = "username"
+                                                id = "input-username"
                                                 // value = {values.handle || ""}
                                                 // onChange = {handleChange}
                                                 // isInvalid = {touched.handle && errors.handle}
@@ -61,6 +64,7 @@ function Login() {
                                                 type = "text"
                                                 name = "password"
                                                 placeholder = "password"
+                                                id = "input-password"
                                                 // value = {values.handle || ""}
                                                 // onChange = {handleChange}
                                                 // isInvalid = {touched.handle && errors.handle}
@@ -70,9 +74,19 @@ function Login() {
 
                                     </row>
 
-                                    <button type="submit">
+                                    <button type="submit" id="loginSubmit">
                                         Login
                                     </button>
+
+                                    {/*type="submit"*/}
+                                    <div className="otherSubmits">
+                                        <button id="googleSubmit">
+                                            <img src={GoogleIcon} alt="Google" />
+                                        </button>
+                                        <button id="githubSubmit">
+                                            <img src={GithubIcon} alt="Github" />
+                                        </button>
+                                    </div>
                                 </form>
                             )}
                         </Formik>

@@ -21,9 +21,63 @@
     bottom: 0;  
     
     h1 {
+      position: relative;
+      margin-top: -40%;
+      margin-bottom: 10%;
       font-family: 'Quicksand', sans-serif;
       font-weight: bold;
       color: #FFF;
+      font-size: 4.5em;
+    }
+
+    #input-username, #input-password {
+        font-size: 2em;
+        padding: 20px;
+        background-color: #2A2D34;
+        border: none;
+        border-radius: 15px;
+        color: #31343B;
+        margin-bottom: 40px;
+        width: 100%;
+        
+    }
+
+    form {
+        position: relative;
+        margin: 0 15% 0;
+        display: inline-grid;
+        // grid-template-rows: repeat(4, 25%);
+        grid-row-gap: 25px;
+        justify-content: space-evenly;
+
+        #loginSubmit {
+            padding: 20px;
+            position: relative;
+            background-color: #7D83FF;
+            border: none;
+            border-radius: 50px;
+            color: #fff;
+            text-transform: uppercase;
+            font-size: 3em;
+        }
+    }
+
+    .otherSubmits {
+        display: inline-grid;
+        grid-template-columns: repeat(2, 45%);
+        grid-column-gap: 5px;
+        justify-content: space-evenly;
+
+        button {
+            padding: 5% 0;
+            position: relative;
+            background-color: #F1F1F1;
+            border: none;
+            border-radius: 25px;
+            color: #fff;
+            text-transform: uppercase;
+            font-size: 2em;
+        }
     }
 }
 
@@ -33,7 +87,7 @@
     overflow: hidden;
 }
 
-.main-innercontainer {
+.main-innercontainer.login {
     position: absolute;
     margin: 0 auto;
     top: 7.5%;
@@ -41,7 +95,9 @@
     right: 30%;
     bottom: 5%;
     content: "";
-    border-radius: 25px;
-    background-color: #2A2D34;
+    border-radius: 30px;
+    background-color: #31343B;
     box-shadow: 0 10px 0px rgba($color: #000000, $alpha: .25);
+    
+    
 }

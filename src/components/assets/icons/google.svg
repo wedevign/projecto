@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="59.922" height="60.904" viewBox="0 0 59.922 60.904">
+  <defs>
+    <clipPath id="clip-path">
+      <path id="Icon_awesome-google" data-name="Icon awesome-google" d="M59.922,31.727c0,17.375-11.9,29.74-29.47,29.74a30.452,30.452,0,1,1,0-60.9,29.285,29.285,0,0,1,20.42,7.969L42.584,16.5c-10.842-10.462-31-2.6-31,14.514A19.075,19.075,0,0,0,30.452,50.243c12.058,0,16.577-8.644,17.289-13.126H30.452V26.643H59.443A26.7,26.7,0,0,1,59.922,31.727Z" transform="translate(0 -0.563)"/>
+    </clipPath>
+  </defs>
+  <g id="Mask_Group_1" data-name="Mask Group 1" clip-path="url(#clip-path)">
+    <g id="Google__G__Logo" transform="translate(0.111 0)">
+      <path id="Path_5" data-name="Path 5" d="M59.693,31.15a35.812,35.812,0,0,0-.526-6.188H30.445V36.689H46.893a14.1,14.1,0,0,1-6.087,9.253v7.609h9.813C56.382,48.247,59.693,40.415,59.693,31.15Z" transform="translate(0.006 0.002)" fill="#4285f4"/>
+      <path id="Path_6" data-name="Path 6" d="M30.445,60.9c8.213,0,15.139-2.7,20.185-7.351l-9.813-7.609A18.469,18.469,0,0,1,13.36,36.286H3.234V44.13A30.455,30.455,0,0,0,30.445,60.9Z" transform="translate(0.006 0.002)" fill="#34a853"/>
+      <path id="Path_7" data-name="Path 7" d="M13.349,36.286a18.24,18.24,0,0,1,0-11.659V16.784H3.234a30.477,30.477,0,0,0,0,27.346Z" transform="translate(0.006 0.002)" fill="#fbbc04"/>
+      <path id="Path_8" data-name="Path 8" d="M30.445,12.051a16.548,16.548,0,0,1,11.681,4.565h0l8.694-8.694A29.267,29.267,0,0,0,30.445,0,30.445,30.445,0,0,0,3.234,16.784l10.115,7.844A18.214,18.214,0,0,1,30.445,12.051Z" transform="translate(0.006 0.002)" fill="#ea4335"/>
+    </g>
+  </g>
+</svg>
