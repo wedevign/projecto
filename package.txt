@@ -30,8 +30,8 @@
     "react-test": "react-scripts test",
     "react-eject": "react-scripts eject",
     "electron-build": "electron-builder",
-    "build": "npm run react-build",
-    "start": "npm run react-start",
+    "build": "npm run react-build && electron-builder",
+    "start": "concurrently \"cross-env BROWSER=none npm run react-start\" \"wait-on http://localhost:3000 && electron .\" ",
     "dist": "build"
   },
   "eslintConfig": {
